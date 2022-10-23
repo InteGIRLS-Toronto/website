@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Upcoming Events</title>
+    <title>Volunteering</title>
     <meta charset="utf-8">
     <link rel="icon" href="../assets/icon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,6 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script> $(function(){ $("#footer").load("../html/footer.html"); });</script>
 </head>
 
 <body>
@@ -96,36 +97,5 @@
         
     </main>
 
-    <footer>
-        <div class="container p-5">
-            <hr>
-            <h2 class="text-center">Stay Connected</h2>
-
-            <div class="row text-center pt-3">
-                <div class="col">
-                    <a href="https://www.instagram.com/integirls.toronto/"><img src="../assets/ig.svg" class="img-fluid" width="100" alt="..."></a>
-                </div>
-
-                <!-- <div class="col">
-                    <a><img src="assets/fb.svg" class="img-fluid" width="100" alt="..."></a>
-                </div> -->
-
-                <!-- <div class="col">
-                    <img src="assets/li.svg" class="img-fluid" width="100" alt="...">
-                </div> -->
-
-                <div class="col">
-                    <a href="https://www.youtube.com/channel/UCvOeWCu_IgKhVvSMvBD0iqg"><img src="../assets/yt.svg" class="img-fluid" width="100" alt="..."></a>
-                </div>
-
-                <div class="col">
-                    <a href="https://discord.com/invite/Rgf586rQUy"><img src="../assets/discord.svg" class="img-fluid" width="100" alt="..."></a>
-                </div>
-
-                <div class="col">
-                    <a href="mailto:toronto@integirls.org"><img src="../assets/mail.svg" class="img-fluid" width="100" alt="..."></a>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <footer id="footer"></footer>
 </body>
