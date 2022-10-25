@@ -1,32 +1,4 @@
-/* desktop view */
-@media all and (min-width: 768px) {
-    .navbar .has-megamenu {
-      position: static !important;
-      font-family: 'Montserrat' !important;
-    }
-  
-    .navbar .megamenu {
-      left: 0;
-      right: 0;
-      width: 100%;
-      margin-top: 0;
-      min-width: 75vw;
-    }
-  
-    .resource.card {
-      height: 100%;
-    }
-}
-  
-  /*  mobile view  */
-@media(max-width: 767px) {
-    .navbar.fixed-top .navbar-collapse .navbar.sticky-top .navbar-collapse {
-        overflow-y: auto;
-        max-height: 90vh;
-        margin-top: 10px;
-    }
-
-    .offcanvas {
-        padding: 4vw;
-    }
+.body {
+  background-color: #FFB6C1;
+  color:#FFB6C1;
 }
