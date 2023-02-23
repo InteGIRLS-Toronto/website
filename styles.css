@@ -7,7 +7,6 @@
 @media all and (min-width: 768px) {
   .navbar .has-megamenu {
     position: static !important;
-    font-family: 'Montserrat' !important;
   }
 
   .navbar .megamenu {

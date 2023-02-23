@@ -13,7 +13,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-    <meta name="google-site-verification" content="AtxZA1LrBtLqPHaSyYXTVOnYdpFX_IlOPg9fGaxobR4" />
+    <meta name="google-site-verification" content="AtxZA1LrBtLqPHaSyYXTVOnYdpFX_IlOPg9fGaxobR4"/>
+    <link href="/styles.css" rel="stylesheet">
+    <script> $(function(){ $("#footer").load("/html/footer.html"); });</script>
 </head>
 
 <!-- Google tag (gtag.js) -->
@@ -28,14 +30,18 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="index.html">
                     <img src="assets/logo.png" alt="Logo" height="30" class="d-inline-block align-text-top">
                     <span class="navbar-brand mb-0 h1">InteGIRLS Toronto</span>
                 </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 
-                <div class="container justify-center">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link active" aria-current="page">Home</a></li>
                         <li class="nav-item dropdown-center has-megamenu"> 
@@ -46,8 +52,8 @@
                                         <div class="col">
                                             <ul class="nav flex-column">
                                                 <li>
-                                                    <a href="html/upcoming.html" class="nav-link link-dark">Upcoming Events</a>
-                                                    <a href="html/past.html" class="nav-link link-dark">Past Events</a>
+                                                    <a href="html/upcoming-events.html" class="nav-link link-dark">Upcoming Events</a>
+                                                    <a href="html/past-events.html" class="nav-link link-dark">Past Events</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -64,8 +70,8 @@
                                         <div class="col">
                                             <ul class="nav flex-column">
                                                 <li>
-                                                    <a href="html/papers.html" class="nav-link link-dark">Past Contest Papers</a>
-                                                    <a href="html/solutions.html" class="nav-link link-dark">Past Contest Solutions</a>
+                                                    <a href="html/past-papers.html" class="nav-link link-dark">Past Contest Papers</a>
+                                                    <a href="html/past-solutions.html" class="nav-link link-dark">Past Contest Solutions</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -74,15 +80,20 @@
                             </div>
                         </li> 
 
-                        <li class="nav-item"><a class="nav-link" href="html/volunteering.html">Volunteer</a></li>
+                        <li class="nav-item"><a class="nav-link" href="html/volunteer.html">Volunteer</a></li>
                         <li class="nav-item"><a class="nav-link" href="html/STEM.html">Women In STEM Spotlight</a></li>
                         <li class="nav-item"><a class="nav-link" href="html/team.html">Our Team</a></li>
                         <li class="nav-item"><a class="nav-link" href="html/sponsors.html">Sponsors</a></li>
                         <li class="nav-item"><a class="nav-link" href="html/about.html">About</a></li>
                     </ul>
                 </div>
-            </div>
-        </nav>
+            
+                <a target="_blank" href="https://www.instagram.com/integirls.toronto/" class="pe-1"><img src="/assets/footer/ig.svg" width="30" class=""></a>
+                <a target="_blank" href="https://discord.com/invite/Rgf586rQUy" class="pe-1"><img src="/assets/footer/discord.svg" width="30" class=""></a>
+                <a target="_blank" href="mailto:toronto@integirls.org" class="pe-1"><img src="/assets/footer/mail.svg" width="30" class=""></a>
+                <a target="_blank" href="https://www.instagram.com/integirls.toronto/" class="pe-1"><img src="/assets/footer/yt.svg" width="30" class=""></a>
+            </nav>
+        </div>
     </header>
 
     <main>
@@ -112,49 +123,10 @@
                 </button>
             </div>
 
-        <div class="container py-5">
+        <div class="container pt-5">
             <p>INTEGIRLS is a community that allows young females and non-binary individuals to explore their passions in math and STEM in a safe and inclusive environment. Historically and currently, the STEM field is very male dominated, which can be daunting and discouraging to many young girls. By hosting math competitions and events in the GTA exclusive to girls and non-binary individuals, we hope to help bridge this gap and provide a safe space for girls and non-binary individuals to grow.</p>
         </div>
     </main>
 
-    <footer>
-        <div class="container py-5">
-            <hr>
-            <h2 class="text-center">Stay Connected</h2>
-        
-            <div class="row text-center pt-3">
-                <div class="col">
-                    <a target="_blank" href="https://www.instagram.com/integirls.toronto/"><img src="assets/footer/ig.svg" class="img-fluid" width="100" alt="..."></a>
-                    <p>@integirls.toronto</p>
-                </div>
-        
-                <!-- <div class="col">
-                    <a><img src="../assets/footer/fb.svg" class="img-fluid" width="100" alt="..."></a>
-                </div> -->
-        
-                <!-- <div class="col">
-                    <img src="../assets/footer/li.svg" class="img-fluid" width="100" alt="...">
-                </div> -->
-        
-                <div class="col">
-                    <a target="_blank" href="https://www.youtube.com/channel/UCvOeWCu_IgKhVvSMvBD0iqg"><img src="assets/footer/yt.svg" class="img-fluid" width="100" alt="..."></a>
-                    <p>inteGIRLS</p>
-                </div>
-        
-                <div class="col">
-                    <a target="_blank" href="https://discord.com/invite/Rgf586rQUy"><img src="assets/footer/discord.svg" class="img-fluid" width="100" alt="..."></a>
-                    <p>Join our server!</p>
-                </div>
-        
-                <div class="col">
-                    <a target="_blank" href="mailto:toronto@integirls.org"><img src="assets/footer/mail.svg" class="img-fluid" width="100" alt="..."></a>
-                    <p>Got questions? Email us!</p>
-                </div>
-            </div>
-        
-            <div class="text-center pt-3">
-                <img src="assets/footer/footerLogo.png" class="w-25">
-            </div>
-        </div>
-    </footer>
+    <footer id="footer"></footer>
 </body>
