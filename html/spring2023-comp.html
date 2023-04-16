@@ -99,8 +99,6 @@
         </div>
 
         <div class="container pt-5">
-            <div class="row">
-                <div class="col-md">
                     <!-- <h5><u>Description</u></h5> -->
                     <p>Welcome to the INTEGIRLS Toronto Spring 2023 Math Competition!</p>
                     <p>The Spring 2023 competition will be held IN-PERSON at Trafalgar Castle School (401 Reynolds St. Whitby, ON L1N 3W9). Doors will open at 11:00 am for registration and the competition will start at 12:00 pm. Some snacks will be provided, prizes can be won, and there will be giveaways as well!!</p>
@@ -116,14 +114,29 @@
                     <p>Make sure to follow us on Instagram @integirls.toronto and join our Discord <a href="https://discord.com/invite/Rgf586rQUy">bit.ly/integirls_discord</a></p>
                     <p>Contact us at <a href="mailto:integirlstoronto.logistics@gmail.com">integirlstoronto.logistics@gmail.com</a> for any questions or concerns.</p>
                     <p>See you soon!</p>
-                </div>
 
-                <div class="col-md">
-                    <h5><u>Date</u></h5>
-                    <p>May 20th, 2023</p>
-                    
-                    <h5><u>Time</u></h5>
-                    <p>12:00 PM EST - 5:00 PM EST</p>
+                    <div class="pt-5">
+                        <div id="eventbrite-widget-container-607980073767"></div>
+
+                        <script src="https://www.eventbrite.ca/static/widgets/eb_widgets.js"></script>
+                        
+                        <script type="text/javascript">
+                            var exampleCallback = function() {
+                                console.log('Order complete!');
+                            };
+                        
+                            window.EBWidgets.createWidget({
+                                // Required
+                                widgetType: 'checkout',
+                                eventId: '607980073767',
+                                iframeContainerId: 'eventbrite-widget-container-607980073767',
+                        
+                                // Optional
+                                iframeContainerHeight: 600,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+                                onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+                            });
+                        </script>
+                    </div>
                 </div>
             </div>
         </div>
