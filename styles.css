@@ -3,6 +3,11 @@
   color:#FFB6C1;
 }
 
+img {
+  border-radius: 50%;
+  border: 4px solid #D56ECA;
+}
+
 /* desktop view */
 @media all and (min-width: 768px) {
   .navbar .has-megamenu {
