@@ -98,24 +98,19 @@
 
         <div class="container">
             <div class="row text-center">
-                <img src="/assets/competitions/fallBanner2023.jpg" class="w-100 rounded pb-3">
+                <img src="/assets/events/codingWorkshop/marchcodingworkshop.png" class="w-100 rounded pb-3">
+
             </div>
 
-            <p>Welcome to the INTEGIRLS Toronto Fall 2023 Math Competition!</p>
-                    <p>The Fall 2023 competition will be held VIRTUALLY through Zoom on November 25th starting 12:30 PM EST, and end at around 5:00 PM. There is NO cost. You just need a computer and wi-fi!</p>
-                    <p>We have over $1250 worth of prizes thanks to our sponsors: the Daily Challenge with Po-Shen Loh, Wolfram Alpha, and the Actuarial Foundation of Canada.</p>
-                    <p>This is a team-based competition with up to 4 members per team. There will be two divisions: an elementary school (grades 1-8) and high school (grades 9-12) division. All group members must be in the same division. Individual competitors are welcome, but you can opt to be randomly assigned to a team if you don't have one!</p>
-                    NOTE:
-                    <ul>
-                        <li>All participants must be Canadian and must be girl or non-binary individuals comfortable being grouped with girls in elementary school (grades 1-8) or high school (grades 9-12)</li>
-                        <li>It is recommended that elementary students wishing to participate be in grades 5-8.</li>
-                    </ul>
+            <p>Welcome to the Virtual Introduction to Coding Workshop, a collaboration between INTEGIRLS Toronto and the Dandelion Project!</p>
+                    <p>The workshop will be held on March 3rd, 2024 at 1 PM. It has been designed to give an introduction to computer science to those with little or no experience.</p>
+                    <p>Everyone is welcome to participate! The only tool needed is a device with internet connection.</p>
+                    <p>By the end of the workshop, participants will have completed a project in Python and have the basic skills needed to continue exploring programming. This is a great opportunity if you're looking to expand your technological skillset!</p>
                     <p></p>
-                    <h5>Only ONE member per team needs to fill out the form below.</h5>
-                    <p></p>
-                    <h5>Sign up here to participate: <a target="_blank" href="https://bit.ly/fall2023-comp">Fall 2023 Math Competition</a></h5>
+                    <h5>Sign up here and fill out the form to participate: <a target="_blank" href="https://shorturl.at/achtv">March 2024 Virtual Coding Workshop</a></h5>
                     <p>.</p>
                     <p>.</p>
+                    <p>To stay updated about more events like this one, check out our websites or social medias (@integirls.toronto & @dandelionprojectontario)!</p>
                     <p>Make sure to follow us on Instagram @integirls.toronto and join our Discord <a target="_blank" href="https://discord.com/invite/Rgf586rQUy">bit.ly/integirls_discord</a></p>
                     <p>Contact us at <a href="mailto:integirlstoronto.logistics@gmail.com">integirlstoronto.logistics@gmail.com</a> if you have any questions or concerns.</p>
         </div>
