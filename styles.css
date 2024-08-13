@@ -1,41 +1,126 @@
-.body {
-  background-color: #FFB6C1;
-  color:#FFB6C1;
+/* Base Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
-img.chapterhead {
-  border-radius: 50%;
-  border: 4px solid #D56ECA;
+/* Header Styles */
+header {
+    background-color: #FF66CC; /* Adjust to the primary color of the main site */
+    padding: 10px 0;
 }
 
-/* desktop view */
-@media all and (min-width: 768px) {
-  .navbar .has-megamenu {
-    position: static !important;
-  }
-
-  .navbar .megamenu {
-    left: 0;
-    right: 0;
-    width: 100%;
-    margin-top: 0;
-    min-width: 75vw;
-  }
-
-  .resource.card {
-    height: 100%;
-  }
+.navbar {
+    background-color: #FF66CC; /* Match with header background */
 }
 
-/*  mobile view  */
-@media(max-width: 767px) {
-  .navbar.fixed-top .navbar-collapse .navbar.sticky-top .navbar-collapse {
-    overflow-y: auto;
-    max-height: 90vh;
-    margin-top: 10px;
-  }
+.navbar-brand span {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
 
-  .offcanvas {
-    padding: 4vw;
-  }
+.navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 500;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FF33CC; /* A lighter shade for hover effect */
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%);
+}
+
+/* Main Section */
+h1, h3, h4 {
+    color: #FF66CC;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+h4 a {
+    color: #FF33CC;
+    text-decoration: none;
+}
+
+h4 a:hover {
+    text-decoration: underline;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #FF66CC;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #FF33CC;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.container-fluid {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .navbar-brand span {
+        font-size: 1.2rem;
+    }
+
+    .nav-item {
+        margin-bottom: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 0;
+    }
 }
