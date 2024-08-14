@@ -8,6 +8,14 @@
   color: #ffa6e3;
 }
 
+.navbar-nav .nav-link {
+    color: #0d000a; /* Change this to your desired color */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff; /* Change this to your desired hover color */
+}
+
 img.chapterhead {
   border-radius: 50%;
   border: 4px solid #D56ECA;
