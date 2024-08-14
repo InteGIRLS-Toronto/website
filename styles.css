@@ -12,9 +12,9 @@
 
 .navbar-nav .nav-link {
     color: #0d000a;
-    margin-right: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .navbar-nav .nav-link:hover {
