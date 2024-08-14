@@ -4,16 +4,21 @@
 }
 
 .navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: #ffa6e3;
   color: #ffa6e3;
 }
 
 .navbar-nav .nav-link {
-    color: #0d000a; /* Change this to your desired color */
+    color: #0d000a;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .navbar-nav .nav-link:hover {
-    color: #ffffff; /* Change this to your desired hover color */
+    color: #ffffff;
 }
 
 img.chapterhead {
@@ -35,6 +40,14 @@ img.chapterhead {
     margin-top: 0;
     min-width: 75vw;
   }
+
+.navbar .megamenu .nav-link {
+    color: #000000;
+}
+
+.navbar .megamenu .nav-link:hover {
+    color: #ffffff;
+}
 
   .resource.card {
     height: 100%;
