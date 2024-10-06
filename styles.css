@@ -26,6 +26,12 @@ img.chapterhead {
   border: 4px solid #D56ECA;
 }
 
+img {
+  width: 250px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
 /* desktop view */
 @media all and (min-width: 768px) {
   .navbar .has-megamenu {
